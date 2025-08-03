@@ -1,4 +1,3 @@
-
 'use client';
 
 import Header from '../../components/Header';
@@ -114,13 +113,15 @@ export default function VPSHosting() {
   ];
 
   const getCurrentLocation = () => locations.find(loc => loc.id === selectedLocation);
-  const getCurrentPlans = () => vpsPlansData[selectedProcessor] || vpsPlansData['AMD EPYC 7B13'];
+  const getCurrentPlans = () =>
+    selectedProcessor in vpsPlansData
+      ? vpsPlansData[selectedProcessor as keyof typeof vpsPlansData]
+      : vpsPlansData['AMD EPYC 7B13'];
 
   return (
     <div className="min-h-screen">
       <Header />
-      
-      {/* Hero Section */}
+
       <section 
         className="relative py-20 bg-cover bg-center"
         style={{
@@ -128,18 +129,14 @@ export default function VPSHosting() {
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-purple-900/70"></div>
-        
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            VPS Hosting
-          </h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">VPS Hosting</h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto">
             High-performance virtual private servers with full root access and premium hardware
           </p>
         </div>
       </section>
 
-      {/* Location Selector */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -173,7 +170,6 @@ export default function VPSHosting() {
                 {getCurrentLocation()?.name} - {getCurrentLocation()?.city}
               </h3>
               <p className="text-gray-600 mb-6">{getCurrentLocation()?.description}</p>
-              
               <div className="space-y-4">
                 <h4 className="font-semibold text-gray-900">Select Processor:</h4>
                 <div className="flex flex-wrap justify-center gap-3">
@@ -197,7 +193,6 @@ export default function VPSHosting() {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -218,7 +213,6 @@ export default function VPSHosting() {
         </div>
       </section>
 
-      {/* VPS Plans */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
@@ -237,9 +231,7 @@ export default function VPSHosting() {
                     Popular
                   </div>
                 )}
-                
                 <div className={`h-2 bg-gradient-to-r ${plan.color}`}></div>
-                
                 <div className="p-6">
                   <div className="text-center mb-6">
                     <h3 className="text-xl font-bold text-gray-900 mb-4">{plan.name}</h3>
@@ -283,7 +275,6 @@ export default function VPSHosting() {
         </div>
       </section>
 
-      {/* Custom Plans CTA */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-3xl mx-auto">

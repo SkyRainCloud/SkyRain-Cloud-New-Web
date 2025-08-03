@@ -13,85 +13,111 @@ export default function TermsOfService() {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center">Terms of Service</h1>
             <div className="text-sm text-gray-500 mb-12 text-center">
-              Last updated: December 2024
+              Last updated: August 3, 2025
             </div>
 
             <div className="prose prose-gray max-w-none">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
-              <p className="text-gray-600 mb-6">
-                By accessing or using SkyRain Cloud services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our services.
+              <h2>1. Introduction</h2>
+              <p>
+                By using SkyRain Cloud’s services, you agree to the following Terms of Service. These terms apply to all services including Minecraft hosting, VPS, and related infrastructure. Please read carefully before using our platform.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Service Description</h2>
-              <p className="text-gray-600 mb-4">
-                SkyRain Cloud provides web hosting services including but not limited to:
-              </p>
-              <ul className="text-gray-600 mb-6 ml-6 list-disc space-y-2">
-                <li>Minecraft server hosting</li>
-                <li>Virtual Private Server (VPS) hosting</li>
-                <li>Associated technical support services</li>
-                <li>Server management and monitoring</li>
+              <h2>2. Refund Policy</h2>
+              <ul>
+                <li>Refunds are offered within 24 hours of purchase and only for Minecraft hosting.</li>
+                <li>No refunds are given for VPS, dedicated servers, or other services.</li>
+                <li>Refunds exclude taxes and gateway fees.</li>
+                <li>Overcharges must be reported within 7 days to be considered.</li>
+                <li>Refunds process in 5–7 business days.</li>
+                <li>Refunds are denied if:
+                  <ul>
+                    <li>You're outside the 24-hour window</li>
+                    <li>Services are no longer needed by choice</li>
+                    <li>Terms were violated</li>
+                    <li>The reason is unrelated to our infrastructure</li>
+                  </ul>
+                </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Account Registration</h2>
-              <p className="text-gray-600 mb-6">
-                To use our services, you must provide accurate and complete information during registration. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
+              <h2>3. Disputes & Chargebacks</h2>
+              <p>
+                Chargebacks result in service suspension and data loss. Open a ticket first. We will respond to payment providers with evidence in all chargeback claims.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Payment Terms</h2>
-              <div className="text-gray-600 mb-6 space-y-4">
-                <p><strong>Billing:</strong> Services are billed monthly or annually as selected during purchase.</p>
-                <p><strong>Payment:</strong> Payment is due in advance for the selected billing period.</p>
-                <p><strong>Refunds:</strong> Refunds may be provided within 7 days of initial purchase, subject to our refund policy.</p>
-                <p><strong>Late Payments:</strong> Services may be suspended for non-payment after a 3-day grace period.</p>
-              </div>
-
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Acceptable Use Policy</h2>
-              <p className="text-gray-600 mb-4">You agree not to use our services for:</p>
-              <ul className="text-gray-600 mb-6 ml-6 list-disc space-y-2">
-                <li>Illegal activities or content that violates applicable laws</li>
-                <li>Spamming, phishing, or other malicious activities</li>
-                <li>Distributing malware, viruses, or harmful code</li>
-                <li>Unauthorized access to other systems or networks</li>
-                <li>Activities that may harm our infrastructure or other users</li>
-                <li>Adult content or gambling-related services</li>
+              <h2>4. Credits</h2>
+              <ul>
+                <li>Issued credits are non-refundable and valid only within SkyRain Cloud.</li>
+                <li>Misuse or exploitation of credits may lead to removal and account penalties.</li>
+                <li>Transfers between accounts may be done via support requests.</li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Service Level Agreement</h2>
-              <div className="text-gray-600 mb-6 space-y-4">
-                <p><strong>Uptime Guarantee:</strong> We guarantee 99.9% uptime for our services.</p>
-                <p><strong>Maintenance:</strong> Scheduled maintenance will be announced 24 hours in advance.</p>
-                <p><strong>Support:</strong> Technical support is available 24/7 through Discord.</p>
-              </div>
+              <h2>5. Usage Policy & Abuse</h2>
+              <ul>
+                <li>Use of cracked/pirated software is strictly prohibited.</li>
+                <li>Resource abuse (CPU, storage, memory) is not allowed.</li>
+                <li>Do not upload or host illegal/malicious content.</li>
+                <li>Any system exploitation will result in termination.</li>
+              </ul>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Data Backup and Security</h2>
-              <p className="text-gray-600 mb-6">
-                While we implement security measures and perform regular backups, you are responsible for maintaining your own backups of critical data. SkyRain Cloud is not liable for data loss due to user error, hardware failure, or other unforeseen circumstances.
+              <h2>6. Minecraft Hosting</h2>
+              <p>SkyRain Cloud is not affiliated with Mojang.</p>
+              <ul>
+                <li>We are not liable for Minecraft TOS violations.</li>
+                <li>Support does <strong>not</strong> include:
+                  <ul>
+                    <li>Plugin/mod configurations or cracked jars</li>
+                    <li>Map, datapack, or custom setup issues</li>
+                    <li>Command block troubleshooting</li>
+                    <li>Domain DNS configuration for Minecraft</li>
+                  </ul>
+                </li>
+                <li>Support <strong>does</strong> include:
+                  <ul>
+                    <li>Startup and panel connection issues</li>
+                    <li>Crash support for modpacks/versions</li>
+                    <li>Addon setup like Geyser, Bungeecord, Dedicated IP</li>
+                  </ul>
+                </li>
+              </ul>
+
+              <h2>7. Discord Support</h2>
+              <ul>
+                <li>Discord support follows SkyRain and Discord’s own terms.</li>
+                <li>Misuse or rule violations may lead to support denial or suspension.</li>
+                <li>Tickets auto-close after 24 hours of inactivity.</li>
+                <li>No support for services not hosted by us or billing issues via Discord.</li>
+              </ul>
+
+              <h2>8. Account Responsibility</h2>
+              <p>
+                You must secure your account with a strong password and 2FA. We are not responsible for breaches caused by user negligence.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Service Suspension and Termination</h2>
-              <p className="text-gray-600 mb-6">
-                We reserve the right to suspend or terminate services for violation of these terms, non-payment, or activities that may harm our infrastructure. Upon termination, data may be deleted after a 7-day grace period.
+              <h2>9. Legal Jurisdiction</h2>
+              <p>
+                These terms are governed by the laws of India. Legal disputes shall be handled in the courts of Noida, Uttar Pradesh.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Limitation of Liability</h2>
-              <p className="text-gray-600 mb-6">
-                SkyRain Cloud's liability is limited to the amount paid for services in the preceding 12 months. We are not liable for indirect, incidental, or consequential damages arising from the use of our services.
+              <h2>10. Cancellation Policy</h2>
+              <ul>
+                <li>Services can be cancelled at any time through the panel.</li>
+                <li>Cancel at least 5 days before renewal to avoid billing.</li>
+                <li>Unpaid services may be suspended or deleted without notice.</li>
+              </ul>
+
+              <h2>11. Backup & Data Responsibility</h2>
+              <p>
+                You are responsible for creating your own backups. Unless purchased separately, we do not guarantee data recovery or backup availability.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">10. Privacy and Data Protection</h2>
-              <p className="text-gray-600 mb-6">
-                Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your information.
+              <h2>12. Public Defamation & Misinformation</h2>
+              <p>
+                Criticism must be submitted through support or official forms. False public claims, misinformation, or defamatory posts may result in suspension or legal action. We value free speech but enforce fairness.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">11. Changes to Terms</h2>
-              <p className="text-gray-600 mb-6">
-                We reserve the right to modify these terms at any time. Significant changes will be communicated via email or through our service announcements. Continued use of services constitutes acceptance of modified terms.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Contact Information</h2>
-              <p className="text-gray-600 mb-6">
-                For questions regarding these Terms of Service, please contact us through our Discord server: https://dsc.gg/skyrain-cloud
+              <h2>13. Contact Information</h2>
+              <p>
+                Questions or concerns? Contact us through our official Discord: <a href="https://dsc.gg/skyrain-cloud" target="_blank" rel="noopener noreferrer">https://dsc.gg/skyrain-cloud</a>
               </p>
 
               <div className="bg-blue-50 p-6 rounded-lg mt-8">

@@ -122,12 +122,10 @@ export default function VPSHosting() {
     <div className="min-h-screen">
       <Header />
 
-      <section 
-        className="relative py-20 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20data%20center%20with%20rows%20of%20server%20racks%2C%20blue%20LED%20lighting%2C%20high-tech%20infrastructure%2C%20clean%20white%20and%20blue%20environment%2C%20professional%20server%20room%20with%20glass%20panels%2C%20futuristic%20technology%20setup%2C%20minimalist%20design%20with%20geometric%20patterns&width=1920&height=800&seq=vpshero001&orientation=landscape')`
-        }}
-      >
+      {/* Hero */}
+      <section className="relative py-20 bg-cover bg-center" style={{
+        backgroundImage: `url('https://readdy.ai/api/search-image?query=Modern%20data%20center%20with%20rows%20of%20server%20racks%2C%20blue%20LED%20lighting%2C%20high-tech%20infrastructure%2C%20clean%20white%20and%20blue%20environment%2C%20professional%20server%20room%20with%20glass%20panels%2C%20futuristic%20technology%20setup%2C%20minimalist%20design%20with%20geometric%20patterns&width=1920&height=800&seq=vpshero001&orientation=landscape')`
+      }}>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-purple-900/70"></div>
         <div className="relative z-10 container mx-auto px-6 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">VPS Hosting</h1>
@@ -137,6 +135,7 @@ export default function VPSHosting() {
         </div>
       </section>
 
+      {/* Location Selection */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -152,7 +151,7 @@ export default function VPSHosting() {
                   setSelectedLocation(location.id);
                   setSelectedProcessor(location.processors[0]);
                 }}
-                className={`px-6 py-3 rounded-full font-medium transition-all whitespace-nowrap cursor-pointer ${
+                className={`px-6 py-3 rounded-full font-medium transition-all ${
                   selectedLocation === location.id
                     ? 'bg-blue-600 text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -177,7 +176,7 @@ export default function VPSHosting() {
                     <button
                       key={index}
                       onClick={() => setSelectedProcessor(processor)}
-                      className={`px-4 py-2 rounded-lg font-medium transition-colors whitespace-nowrap cursor-pointer ${
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors ${
                         selectedProcessor === processor
                           ? 'bg-blue-600 text-white'
                           : 'bg-white text-gray-700 hover:bg-blue-50 border border-gray-200'
@@ -193,6 +192,7 @@ export default function VPSHosting() {
         </div>
       </section>
 
+      {/* VPS Features */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
@@ -213,6 +213,7 @@ export default function VPSHosting() {
         </div>
       </section>
 
+      {/* VPS Plans */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
@@ -223,9 +224,14 @@ export default function VPSHosting() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {getCurrentPlans().map((plan, index) => (
-              <div key={index} className={`relative bg-white rounded-2xl shadow-lg overflow-hidden border hover:shadow-xl transition-shadow ${plan.popular ? 'ring-2 ring-blue-500' : 'border-gray-200'}`}>
+              <div
+                key={index}
+                className={`relative bg-white rounded-2xl shadow-lg overflow-hidden border w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-xs hover:shadow-xl transition-shadow ${
+                  plan.popular ? 'ring-2 ring-blue-500' : 'border-gray-200'
+                }`}
+              >
                 {plan.popular && (
                   <div className="absolute top-4 right-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-medium">
                     Popular
@@ -264,7 +270,7 @@ export default function VPSHosting() {
                     href="https://dsc.gg/skyrain-cloud" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className={`block w-full bg-gradient-to-r ${plan.color} text-white text-center py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity whitespace-nowrap cursor-pointer`}
+                    className={`block w-full bg-gradient-to-r ${plan.color} text-white text-center py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity`}
                   >
                     Purchase Now
                   </a>
@@ -275,6 +281,7 @@ export default function VPSHosting() {
         </div>
       </section>
 
+      {/* Custom Plans CTA */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-3xl mx-auto">
@@ -286,7 +293,7 @@ export default function VPSHosting() {
               href="https://dsc.gg/skyrain-cloud" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors whitespace-nowrap cursor-pointer"
+              className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               <div className="w-6 h-6 flex items-center justify-center mr-2">
                 <i className="ri-discord-fill text-lg"></i>

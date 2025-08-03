@@ -19,30 +19,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// ✅ Updated metadata — Readdy removed
 export const metadata: Metadata = {
-  title: "SkyRain Cloud - Premium Hosting & Servers",
-  description: "High-performance VPS & game server hosting with 99.9% uptime and global locations.",
-  openGraph: {
-    title: "SkyRain Cloud - Premium Hosting & Servers",
-    description: "Fast, secure, and affordable hosting. Join SkyRain today.",
-    url: "https://skyrain.cloud",
-    siteName: "SkyRain Cloud",
-    images: [
-      {
-        url: "https://skyrain.cloud/logo.png", // Make sure this file exists
-        width: 1200,
-        height: 630,
-        alt: "SkyRain Cloud Logo",
-      },
-    ],
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "SkyRain Cloud - Premium Hosting & Servers",
-    description: "Fast, secure, and affordable hosting. Join SkyRain today.",
-    images: ["https://skyrain.cloud/logo.png"],
-  },
+  title: "SkyRain Cloud",
+  description: "Premium hosting, VPS and game servers.",
 };
 
 export default function RootLayout({

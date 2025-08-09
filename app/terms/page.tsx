@@ -30,6 +30,8 @@ export default function TermsOfService() {
                   <li>No refunds for VPS, dedicated servers, or other services.</li>
                   <li>Taxes and gateway fees are non-refundable.</li>
                   <li>Refunds process within 5–7 business days.</li>
+                  <li>All refunds are eligible after deducting exchange costs and applicable taxes.
+</li>
                   <li>
                     Refunds are denied if:
                     <ul className="list-disc pl-6">

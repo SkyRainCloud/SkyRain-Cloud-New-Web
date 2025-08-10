@@ -13,9 +13,16 @@ export default function PrivacyPolicy() {
           <div className="max-w-4xl mx-auto">
             {/* BIG TITLE */}
             <h1 className="text-5xl font-extrabold text-green-700 mb-4 text-center uppercase">Privacy Policy</h1>
-            <div className="text-sm text-gray-500 mb-12 text-center">
+            <div className="text-sm text-gray-500 mb-4 text-center">
               Last updated: June 22, 2025
             </div>
+
+            {/* AGREEMENT CLAUSE */}
+            <p className="text-gray-700 mb-12 text-center">
+              By using our services, you agree to comply with and be bound by our{' '}
+              <a href="/terms-of-service" className="text-green-700 font-semibold hover:underline">Terms of Service</a>{' '}
+              and this Privacy Policy.
+            </p>
 
             <div className="prose prose-gray max-w-none">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">• Data Collected</h2>
@@ -102,6 +109,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">• Legal Complaints</h2>
               <p className="text-gray-600 mb-6">
                 We comply with valid legal processes such as court orders, law enforcement, and DMCA notices from India or server jurisdictions.
+                Regardless of your location, by using our services, you agree that all legal matters, disputes, and proceedings will be governed exclusively by the laws of India, and handled under the jurisdiction of the courts in Noida, Uttar Pradesh.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-900 mb-4">• Data Deletion</h2>

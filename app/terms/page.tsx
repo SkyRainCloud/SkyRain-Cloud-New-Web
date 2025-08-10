@@ -21,6 +21,7 @@ export default function TermsOfService() {
                   By using SkyRain Cloud’s services, you agree to the following Terms of Service.
                   These terms apply to all services including Minecraft hosting, VPS, and related infrastructure.
                 </p>
+                <p className="mt-2 font-semibold">Zero Tolerance: Harassment or abusive behaviour toward staff, representatives, or other customers is not permitted and is cause for immediate action.</p>
               </section>
 
               <section>
@@ -30,8 +31,7 @@ export default function TermsOfService() {
                   <li>No refunds for VPS, dedicated servers, or other services.</li>
                   <li>Taxes and gateway fees are non-refundable.</li>
                   <li>Refunds process within 5–7 business days.</li>
-                  <li>All refunds are eligible after deducting exchange costs and applicable taxes.
-</li>
+                  <li>All refunds are eligible after deducting exchange costs and applicable taxes.</li>
                   <li>
                     Refunds are denied if:
                     <ul className="list-disc pl-6">
@@ -72,6 +72,24 @@ export default function TermsOfService() {
               </section>
 
               <section>
+                <h2 className="text-2xl font-bold">5.1 Harassment, Abusive Language & Swearing</h2>
+                <p>
+                  Any form of harassment, threats, abusive language, or swearing directed toward SkyRain Cloud staff,
+                  representatives, or other customers is strictly prohibited. This includes communications in support tickets,
+                  live chat, Discord, email, social media, or any other channel managed by SkyRain Cloud.
+                </p>
+                <p className="mt-2">
+                  Prohibited conduct includes but is not limited to: repeated insults, threats, sexually explicit harassment,
+                  hate speech, targeted doxxing attempts, or any message intended to intimidate or humiliate our staff or other users.
+                </p>
+                <p className="mt-2 font-semibold">
+                  Consequences: Breach of this section may result in immediate suspension or termination of services without refund,
+                  without prior notice, and without access to stored data. SkyRain Cloud reserves the right to retain logs and evidence
+                  of abusive behaviour and to provide those records to payment processors, law enforcement, or other parties as required.
+                </p>
+              </section>
+
+              <section>
                 <h2 className="text-2xl font-bold">6. Minecraft Hosting</h2>
                 <ul className="list-disc pl-6">
                   <li>Not affiliated with Mojang/Minecraft.</li>
@@ -98,7 +116,7 @@ export default function TermsOfService() {
                 <h2 className="text-2xl font-bold">7. Discord Support</h2>
                 <ul className="list-disc pl-6">
                   <li>Follows SkyRain and Discord's terms.</li>
-                  <li>Rule violations = support denial or ban.</li>
+                  <li>Rule violations = support denial or ban. See Section 5.1 for harassment policy and consequences.</li>
                   <li>Inactive tickets close after 24 hours.</li>
                 </ul>
               </section>
@@ -143,7 +161,7 @@ export default function TermsOfService() {
               <section>
                 <h2 className="text-2xl font-bold">13. Contact Information</h2>
                 <p>
-                  Contact us via our official Discord:{" "}
+                  Contact us via our official Discord: {' '}
                   <a
                     href="https://dsc.gg/skyrain-cloud"
                     target="_blank"
@@ -151,6 +169,14 @@ export default function TermsOfService() {
                   >
                     https://dsc.gg/skyrain-cloud
                   </a>
+                </p>
+              </section>
+
+              <section>
+                <h2 className="text-2xl font-bold">14. Miscellaneous</h2>
+                <p>
+                  If any provision of these Terms is found to be invalid or unenforceable, the remainder will remain in effect.
+                  We may update these Terms from time to time; material changes will be communicated via email or the client dashboard.
                 </p>
               </section>
             </div>

@@ -15,15 +15,23 @@ export default function TermsOfService() {
             <p className="text-sm text-gray-500 mb-12 text-center">Last updated: August 3, 2025</p>
 
             <div className="prose prose-gray max-w-none space-y-12">
+              {/* Introduction */}
               <section>
                 <h2 className="text-2xl font-bold">1. Introduction</h2>
                 <p>
                   By using SkyRain Cloud’s services, you agree to the following Terms of Service.
                   These terms apply to all services including Minecraft hosting, VPS, and related infrastructure.
                 </p>
-                <p className="mt-2 font-semibold">Zero Tolerance: Harassment or abusive behaviour toward staff, representatives, or other customers is not permitted and is cause for immediate action.</p>
+                <p className="mt-2 font-semibold">
+                  Zero Tolerance: Harassment or abusive behaviour toward staff, representatives, or other customers is not permitted and is cause for immediate action.
+                </p>
+                <p className="mt-2 text-blue-800 font-medium">
+                  Note: At present, SkyRain Cloud only sells and processes service purchases through our official Discord server.
+                  Please join our Discord for all inquiries, purchases, and support.
+                </p>
               </section>
 
+              {/* Refund Policy */}
               <section>
                 <h2 className="text-2xl font-bold">2. Refund Policy</h2>
                 <ul className="list-disc pl-6">
@@ -44,6 +52,7 @@ export default function TermsOfService() {
                 </ul>
               </section>
 
+              {/* Disputes */}
               <section>
                 <h2 className="text-2xl font-bold">3. Disputes & Chargebacks</h2>
                 <p>
@@ -52,6 +61,7 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Credits */}
               <section>
                 <h2 className="text-2xl font-bold">4. Credits</h2>
                 <ul className="list-disc pl-6">
@@ -61,6 +71,7 @@ export default function TermsOfService() {
                 </ul>
               </section>
 
+              {/* Usage Policy */}
               <section>
                 <h2 className="text-2xl font-bold">5. Usage Policy & Abuse</h2>
                 <ul className="list-disc pl-6">
@@ -71,6 +82,7 @@ export default function TermsOfService() {
                 </ul>
               </section>
 
+              {/* Harassment Policy */}
               <section>
                 <h2 className="text-2xl font-bold">5.1 Harassment, Abusive Language & Swearing</h2>
                 <p>
@@ -89,6 +101,7 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Minecraft Hosting */}
               <section>
                 <h2 className="text-2xl font-bold">6. Minecraft Hosting</h2>
                 <ul className="list-disc pl-6">
@@ -112,6 +125,7 @@ export default function TermsOfService() {
                 </ul>
               </section>
 
+              {/* Discord Support */}
               <section>
                 <h2 className="text-2xl font-bold">7. Discord Support</h2>
                 <ul className="list-disc pl-6">
@@ -121,6 +135,7 @@ export default function TermsOfService() {
                 </ul>
               </section>
 
+              {/* Account Responsibility */}
               <section>
                 <h2 className="text-2xl font-bold">8. Account Responsibility</h2>
                 <p>
@@ -128,6 +143,7 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Legal Jurisdiction */}
               <section>
                 <h2 className="text-2xl font-bold">9. Legal Jurisdiction</h2>
                 <p>
@@ -135,15 +151,27 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Cancellation Policy */}
               <section>
                 <h2 className="text-2xl font-bold">10. Cancellation Policy</h2>
                 <ul className="list-disc pl-6">
-                  <li>Cancel anytime via panel.</li>
-                  <li>Cancel 5+ days before renewal to avoid charges.</li>
-                  <li>Unpaid services may be deleted.</li>
+                  <li>
+                    All cancellations must be requested through our official Discord:{' '}
+                    <a
+                      href="https://dsc.gg/skyrain-cloud"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline"
+                    >
+                      https://dsc.gg/skyrain-cloud
+                    </a>
+                  </li>
+                  <li>Requests should be made at least 5 days before the next renewal to avoid being charged.</li>
+                  <li>Unpaid or overdue services may be deleted without recovery.</li>
                 </ul>
               </section>
 
+              {/* Backups */}
               <section>
                 <h2 className="text-2xl font-bold">11. Backups & Data Loss</h2>
                 <p>
@@ -151,6 +179,7 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Defamation */}
               <section>
                 <h2 className="text-2xl font-bold">12. Public Defamation & Misinformation</h2>
                 <p>
@@ -158,10 +187,11 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Contact */}
               <section>
                 <h2 className="text-2xl font-bold">13. Contact Information</h2>
                 <p>
-                  Contact us via our official Discord: {' '}
+                  Contact us via our official Discord:{' '}
                   <a
                     href="https://dsc.gg/skyrain-cloud"
                     target="_blank"
@@ -172,6 +202,7 @@ export default function TermsOfService() {
                 </p>
               </section>
 
+              {/* Misc */}
               <section>
                 <h2 className="text-2xl font-bold">14. Miscellaneous</h2>
                 <p>
@@ -181,6 +212,7 @@ export default function TermsOfService() {
               </section>
             </div>
 
+            {/* Help Box */}
             <div className="bg-blue-50 p-6 rounded-lg mt-16">
               <h3 className="text-lg font-semibold text-blue-900 mb-2">Need Help?</h3>
               <p className="text-blue-700">We're available 24/7 on Discord to help.</p>

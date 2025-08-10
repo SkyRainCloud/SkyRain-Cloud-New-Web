@@ -124,7 +124,7 @@ export default function PrivacyPolicy() {
 
               <h2 className="text-2xl font-bold text-gray-900 mb-4">• Contact Us</h2>
               <p className="text-gray-600 mb-6">
-                For privacy-related questions or data requests, contact us through Discord or email us at: <strong>privacy@elightnodes.com</strong>
+                For privacy-related questions or data requests, contact us through Discord or email us at: <strong>support@skyrain.cloud</strong>
               </p>
 
               <div className="bg-green-50 p-6 rounded-lg mt-8">

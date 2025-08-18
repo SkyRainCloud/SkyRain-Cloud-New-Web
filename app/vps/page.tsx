@@ -22,7 +22,7 @@ export default function VPSHosting() {
       name: 'Germany',
       flag: '🇩🇪',
       city: 'Frankfurt',
-      processors: ['Ryzen 9 9900X'],
+      processors: ['Ryzen 9 9900X', 'AMD Turin'],
       description: 'Built for low-latency in Europe'
     },
     {
@@ -30,7 +30,7 @@ export default function VPSHosting() {
       name: 'Singapore',
       flag: '🇸🇬',
       city: 'Singapore',
-      processors: ['AMD EPYC 7B13'],
+      processors: ['AMD EPYC 7B13', 'AMD Turin'],
       description: 'Ideal for Asia-Pacific region'
     }
   ];

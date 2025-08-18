@@ -43,7 +43,7 @@ export default function VPSHosting() {
         cpu: "4 vCPU",
         storage: "100 GB NVMe",
         bandwidth: "2 TB",
-        price: "₹599",
+        price: "₹699",
         color: "from-blue-500 to-blue-600"
       },
       {

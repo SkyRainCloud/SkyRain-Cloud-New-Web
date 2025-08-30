@@ -107,7 +107,6 @@ export default function MinecraftHosting() {
       storage: "40 GB SSD",
       price: "₹936",
       color: "from-purple-500 to-purple-600",
-      popular: true
     },
     {
       name: "Performance 4",
@@ -116,6 +115,7 @@ export default function MinecraftHosting() {
       storage: "60 GB SSD",
       price: "₹1,248",
       color: "from-cyan-500 to-cyan-600"
+      popular: true
     },
     {
       name: "Performance 5",

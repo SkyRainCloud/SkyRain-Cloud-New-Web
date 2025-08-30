@@ -89,7 +89,7 @@ export default function MinecraftHosting() {
       icon: "⚡",
       ram: "6 GB",
       storage: "20 GB SSD",
-      price: "₹660",
+      price: "₹468",
       color: "from-blue-500 to-blue-600"
     },
     {
@@ -97,7 +97,7 @@ export default function MinecraftHosting() {
       icon: "⚡",
       ram: "8 GB",
       storage: "30 GB SSD",
-      price: "₹880",
+      price: "₹624",
       color: "from-indigo-500 to-indigo-600"
     },
     {
@@ -105,7 +105,7 @@ export default function MinecraftHosting() {
       icon: "⚡",
       ram: "12 GB",
       storage: "40 GB SSD",
-      price: "₹1,320",
+      price: "₹936",
       color: "from-purple-500 to-purple-600",
       popular: true
     },
@@ -114,7 +114,7 @@ export default function MinecraftHosting() {
       icon: "⚡",
       ram: "16 GB",
       storage: "60 GB SSD",
-      price: "₹1,760",
+      price: "₹1,248",
       color: "from-cyan-500 to-cyan-600"
     },
     {
@@ -122,7 +122,7 @@ export default function MinecraftHosting() {
       icon: "⚡",
       ram: "24 GB",
       storage: "80 GB SSD",
-      price: "₹2,640",
+      price: "₹1,872",
       color: "from-yellow-500 to-yellow-600"
     },
     {
@@ -130,7 +130,7 @@ export default function MinecraftHosting() {
       icon: "⚡",
       ram: "32 GB",
       storage: "100 GB SSD",
-      price: "₹3,520",
+      price: "₹2,496",
       color: "from-red-500 to-red-600"
     }
   ];

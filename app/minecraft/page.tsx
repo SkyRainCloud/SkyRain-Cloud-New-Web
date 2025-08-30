@@ -290,7 +290,7 @@ export default function MinecraftHosting() {
             <div className="animate-fade-in">
               <div className="text-center mb-16">
                 <h2 className="text-4xl font-bold text-gray-900 mb-4">Powered Plans</h2>
-                <p className="text-xl text-gray-600 mb-2">Powered by DDR5 RAM & Ryzen 9 9900X</p>
+                <p className="text-xl text-gray-600 mb-2">Powered by DDR5 RAM & AMD EPYC 9005</p>
                 <p className="text-gray-500">High-performance hosting for large communities</p>
               </div>
 
@@ -322,7 +322,7 @@ export default function MinecraftHosting() {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-gray-600">Processor</span>
-                          <span className="font-semibold">Ryzen 9 9900X</span>
+                          <span className="font-semibold">AMD EPYC 9005</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-gray-600">Storage</span>
